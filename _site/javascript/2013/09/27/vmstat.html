@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <!--[if lte IE 9]><meta http-equiv="refresh" content="0;url=/ie.html"><![endif]-->
+
+    <title>vmstat</title>
+    <meta name="description" content="">
+
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+  </head>
+  <body>
+    <aside id="sidebar">
+      <nav id="tags">
+        <a href="/index.html" id="avatar"></a>
+
+        <ul id="tags__ul">
+          <li id="js-label1" class="tags__li tags-btn active">全部文章</li>
+          <li id="js-label2" class="tags__li tags-btn">CSS</li>
+          <li id="js-label3" class="tags__li tags-btn">javascript</li>
+          <li id="js-label4" class="tags__li tags-btn">html5</li>
+          <li id="js-label5" class="tags__li tags-btn">nodejs</li>
+          <li id="js-label6" class="tags__li tags-btn">前端综合</li>
+        </ul>
+
+        <div id="tags__bottom">
+          <a href="mailto:303182519@qq.com" id="icon-email" class="tags-btn fontello"></a>
+          <a href="/rss.xml" id="icon-feed" class="tags-btn fontello"></a>
+        </div>
+      </nav> <!-- end #tags -->
+
+      <div id="posts-list">
+        <form action="" id="search-form">
+          <a href="/index.html" id="mobile-avatar"></a>
+          <!-- NOTE: input field is disabled by default -->
+          <input id="search-input" type="text" placeholder="Search..." disabled >
+        </form>
+
+        <nav id="pl__container">
+        
+          <a class="zonghe pl__all" href="/zonghe/2013/09/28/vmstat.html"><span class="pl__circle"></span><span class="pl__title">vmstat</span><span class="pl__date">Sep 2013</span></a>
+        
+          <a class="javascript pl__all" href="/javascript/2013/09/27/vmstat.html"><span class="pl__circle"></span><span class="pl__title">vmstat</span><span class="pl__date">Sep 2013</span></a>
+        
+          <a class="css pl__all" href="/css/2013/06/04/git-base.html"><span class="pl__circle"></span><span class="pl__title">git常用命令</span><span class="pl__date">Jun 2013</span></a>
+        
+        </nav>
+      </div> <!-- end #posts-list -->
+    </aside> <!-- end #sidebar -->
+
+    <div id="post">
+      <div id="pjax">
+        <article id="post__content">
+  <h1 id="post__title" data-identifier="20130927">vmstat</h1>
+  <h2 id="vmstat_n_3_sm">常用用法:vmstat -n 3 -SM</h2>
+
+<h2 id="swap">swap列</h2>
+
+<ul>
+<li><strong>si</strong> 从磁盘交换到内存的交换页数量; 此值&gt;0,表示</li>
+
+<li><strong>so</strong> 从内存交换到磁盘的交换页数量; 此值持续&gt;0,表示内存不够用,大量的内存,硬盘空间进行交换</li>
+</ul>
+
+<h2 id="io">io列</h2>
+
+<ul>
+<li><strong>bi</strong> 发送到块设备的块数</li>
+
+<li><strong>bo</strong> 从块设备接收到的块数</li>
+</ul>
+
+<h2 id="system">system列</h2>
+
+<ul>
+<li><strong>in</strong> 每秒的中断数，包括时钟中断</li>
+
+<li><strong>cs</strong> 每秒的环境(上下文)转换次数</li>
+</ul>
+
+<h2 id="cpu">cpu列</h2>
+
+<ul>
+<li><strong>us</strong> 用户进程使用的时间,以百分比表示</li>
+
+<li><strong>sy</strong> 系统进程使用的时间,以百分比表示</li>
+
+<li><strong>id</strong> 中央处理器的空闲时间,以百分比表示</li>
+
+<li><strong>wa</strong> 进程等待的空间时间,以百分比表示</li>
+</ul>
+</article> <!-- end #post__content -->
+
+<div id="post__share">
+  <a id="icon-twitter" class="fontello" href="https://twitter.com/intent/tweet?url=303182519.github.com/javascript/2013/09/27/vmstat.html&text=vmstat" target="_blank"></a>
+  <a id="icon-cc" class="fontello" href="http://creativecommons.org/licenses/by-nc-sa/3.0" target="_blank"></a>
+  <a id="icon-weibo" class="fontello" href="http://v.t.sina.com.cn/share/share.php?url=303182519.github.com/javascript/2013/09/27/vmstat.html&title=vmstat" target="_blank"></a>
+</div> <!-- end #post__share -->
+
+<div id="disqus_thread">
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com" class="dsq-brlink" target="_blank">Loading Disqus comments...</a>
+</div> <!-- end #disqus_thread -->
+
+<p id="copyright">Powered by <a href="http://jekyllrb.com" target="_blank">Jekyll</a>&nbsp;&nbsp;|&nbsp;&nbsp;Theme <a href="https://github.com/P233/3-Jekyll" target="_blank">3-Jekyll</a></p>
+      </div> <!-- end #pjax -->
+
+      <div id="post__toc-trigger">
+        <div id="post__toc">
+          <span id="post__toc-title">Table of Contents</span>
+          <ul id="post__toc-ul"></ul>
+        </div>
+      </div>
+    </div> <!-- end #post -->
+
+    <button id="js-fullscreen"><span id="icon-arrow" class="fontello"></span></button>
+
+    <script src="/assets/js/jquery-2.0.3.min.js"></script>
+    <script src="/assets/js/jquery.pjax.js"></script>
+    <script src="/assets/js/nprogress.js"></script>
+    <script src="/assets/js/script.js"></script>
+  </body>
+</html>
