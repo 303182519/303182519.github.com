@@ -1,0 +1,4 @@
+pygments: true
+safe: true
+auto: true
+encoding: utf-8

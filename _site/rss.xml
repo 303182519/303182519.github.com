@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>place_your_blog_title_here</title>
+    <link>place_your_blog_url_here</link>
+    <atom:link href="place_your_blog_url_here/rss.xml" rel="self" type="application/rss+xml" />
+    <description>place_your_blog_description_here</description>
+    <language>place_your_blog_language_here</language>
+    <pubDate>Tue, 25 Mar 2014 09:44:54 +0800</pubDate>
+    <lastBuildDate>Tue, 25 Mar 2014 09:44:54 +0800</lastBuildDate>
+
+    
+    <item>
+      <title>vmstat</title>
+      <link>place_your_blog_url_here/js/2013/09/27/vmstat.html</link>
+      <pubDate>27 Sep 2013</pubDate>
+      <author>place_your_name_here</author>
+      <guid>place_your_blog_url_here/js/2013/09/27/vmstat</guid>
+      <description>&lt;h2 id=&quot;vmstat_n_3_sm&quot;&gt;常用用法:vmstat -n 3 -SM&lt;/h2&gt;
+
+&lt;h2 id=&quot;swap&quot;&gt;swap列&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;si&lt;/strong&gt; 从磁盘交换到内存的交换页数量; 此值&amp;gt;0,表示&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;so&lt;/strong&gt; 从内存交换到磁盘的交换页数量; 此值持续&amp;gt;0,表示内存不够用,大量的内存,硬盘空间进行交换&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;io&quot;&gt;io列&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;bi&lt;/strong&gt; 发送到块设备的块数&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;bo&lt;/strong&gt; 从块设备接收到的块数&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;system&quot;&gt;system列&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;in&lt;/strong&gt; 每秒的中断数，包括时钟中断&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;cs&lt;/strong&gt; 每秒的环境(上下文)转换次数&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;cpu&quot;&gt;cpu列&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;us&lt;/strong&gt; 用户进程使用的时间,以百分比表示&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;sy&lt;/strong&gt; 系统进程使用的时间,以百分比表示&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;id&lt;/strong&gt; 中央处理器的空闲时间,以百分比表示&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;wa&lt;/strong&gt; 进程等待的空间时间,以百分比表示&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>git常用命令</title>
+      <link>place_your_blog_url_here/css/2013/06/04/git-base.html</link>
+      <pubDate>04 Jun 2013</pubDate>
+      <author>place_your_name_here</author>
+      <guid>place_your_blog_url_here/css/2013/06/04/git-base</guid>
+      <description>&lt;h2 id=&quot;&quot;&gt;基本命令&lt;/h2&gt;
+
+&lt;h3 id=&quot;_2&quot;&gt;拉取文件&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;git clone URL&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;_3&quot;&gt;更新&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;git pull&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;_4&quot;&gt;修改后提交&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;git add *
+git commit --all -m &amp;quot;change content&amp;quot;
+git push origin master&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;_5&quot;&gt;其它资源&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://rogerdudler.github.io/git-guide/index.zh.html&quot;&gt;最牛逼的git入门&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
