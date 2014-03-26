@@ -2,7 +2,7 @@
 layout: post
 category : css
 tagline: "项目无Bug之日即是下线之时"
-title: querySelector、querySelectorAll和CSS3 Selectors一起来
+title: Selectors选择器
 ---
 
     var tip = ["指定元素名称", "属性中包含", "属性开始", "属性结束", "属性等于",
