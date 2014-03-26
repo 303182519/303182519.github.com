@@ -1,6 +1,5 @@
 ---
 layout: post
-tagline: "项目无Bug之日即是下线之时"
 title: 命名空间的函数
 category : javascript
 ---

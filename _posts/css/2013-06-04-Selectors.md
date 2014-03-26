@@ -1,7 +1,6 @@
 ---
 layout: post
 category : css
-tagline: "项目无Bug之日即是下线之时"
 title: Selectors选择器
 ---
 
